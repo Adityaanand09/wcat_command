@@ -12,19 +12,19 @@ if(str.charAt(0)=='-')
 {
     if(str.charAt(1)=='s')
     {
-            console.log("breakline remobal and call s.js");
+            //console.log("breakline remobal and call s.js");
             s.fn(input);
 
     }
     else if(str.charAt(1)=='b')
     {
 
-            console.log("count no.of lines and call b.js");
+           // console.log("count no.of lines and call b.js");
             b.fn(input);
     }
     else if(str.charAt(1)=='n')
     {
-        console.log("call n.js");
+        //console.log("call n.js");
         n.fn(input);
     }
 }
